@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : 'sharpeville-rhinos'
+			base: process.argv.includes('dev') ? '' : '/sharpeville-rhinos'
 		}
 	},
 	preprocess: [mdsvex()],
