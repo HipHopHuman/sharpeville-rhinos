@@ -1,9 +1,9 @@
 <script>
-  import LogoImage from '$lib/assets/images/logo.png';
+  import LogoImage from "$lib/assets/images/logo.png";
 </script>
 
-<a href="/">
-  <img src={LogoImage} alt="Sharpeville Rhinos logo"/>
+<a href={base}>
+  <img src={LogoImage} alt="Sharpeville Rhinos logo" />
 </a>
 
 <style>
