@@ -103,14 +103,14 @@
   }
 
   .team-bios::before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('soccer-bg.jpg');
+    background-image: url("/sharpeville-rhinos/soccer-bg.jpg");
     z-index: -1;
     opacity: 0.1;
   }
@@ -135,7 +135,7 @@
     object-fit: cover;
     object-position: center center;
     aspect-ratio: cos(30deg);
-    clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+    clip-path: polygon(-50% 50%, 50% 100%, 150% 50%, 50% 0);
   }
 
   .team-bio-description p {
