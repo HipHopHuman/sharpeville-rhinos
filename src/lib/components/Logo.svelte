@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths";
   import LogoImage from "$lib/assets/images/logo.png";
 </script>
 
