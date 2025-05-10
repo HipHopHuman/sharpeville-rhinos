@@ -1,9 +1,13 @@
+<script>
+  import base from "$app/paths";
+</script>
+
 <div class="nav-wrapper">
   <div class="nav-border">
     <nav>
-      <a href="/">Home</a>
-      <a href="/meet-the-team">Meet the Team</a>
-      <a href="/fixtures-and-results">News & Fixtures</a>
+      <a href="{base}">Home</a>
+      <a href="{base}/meet-the-team">Meet the Team</a>
+      <a href="{base}/fixtures-and-results">News & Fixtures</a>
     </nav>
   </div>
 </div>
