@@ -8,7 +8,8 @@ const config = {
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/sharpeville-rhinos'
-		}
+		},
+		entries: []
 	},
 	preprocess: [mdsvex()],
 	extensions: ['.svelte', '.svx']
