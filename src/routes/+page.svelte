@@ -73,15 +73,18 @@
     <p>
       The majority of our <strong>80+</strong> players are from less-fortunate backgrounds
       and poor communities in the Vaal Triangle region, namely Sebokeng, Boipatong,
-      Tshepiso, Bophelong, and Vereeniging.</p>
-    <p>Due to their backgrounds, it is a challenge
-      for the club to cover their basic needs such as soccer boots, shin guards,
-      nutritional meals, and transport to and from training and matches. The club
-      sustains itself through the prize monies it receives from winning small local
-      tournaments and individual donations from willing people. The gravel field
-      which the club currently uses for training is maintained by volunteer community
-      members and parents. Without this valuable financial aid from the corporate
-      world, volunteer coaches, and helpful parents, the club would not exist.
+      Tshepiso, Bophelong, and Vereeniging.
+    </p>
+    <p>
+      Due to their backgrounds, it is a challenge for the club to cover their
+      basic needs such as soccer boots, shin guards, nutritional meals, and
+      transport to and from training and matches. The club sustains itself
+      through the prize monies it receives from winning small local tournaments
+      and individual donations from willing people. The gravel field which the
+      club currently uses for training is maintained by volunteer community
+      members and parents. Without this valuable financial aid from the
+      corporate world, volunteer coaches, and helpful parents, the club would
+      not exist.
     </p>
   </div>
 </section>
@@ -146,11 +149,11 @@
     position: absolute;
     top: 0;
     left: 0;
-    content: '';
+    content: "";
     width: 100%;
     height: 100%;
     display: block;
-    background-image: url('/soccer-bg.jpg');
+    background-image: url("/soccer-bg.jpg");
     background-repeat: no-repeat;
     z-index: -1;
     opacity: 0.1;
@@ -172,7 +175,6 @@
     justify-content: center;
     padding: 1rem;
     margin: 0 auto;
-    text-align: justify;
     width: 50%;
   }
 
@@ -192,5 +194,58 @@
   section div h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    section div p {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    section div {
+      padding: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    section {
+      display: block;
+      position: relative;
+      background: white;
+      min-height: 100vh;
+      border-bottom: 2px solid #222;
+    }
+
+    section img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      object-fit: cover;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    section div {
+      position: relative;
+      padding: 3rem 1rem;
+      width: 100%;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      z-index: 1;
+      background: rgba(255,255,255,0.2);
+    }
+
+    section div p {
+      font-size: 1.25rem;
+    }
+
+    section div p, section div h2 {
+      max-width: 70%;
+    }
   }
 </style>

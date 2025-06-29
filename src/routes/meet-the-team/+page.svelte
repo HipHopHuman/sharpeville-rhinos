@@ -110,7 +110,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/sharpeville-rhinos/soccer-bg.jpg");
+    background-image: url("/soccer-bg.jpg");
     z-index: -1;
     opacity: 0.1;
   }
@@ -144,5 +144,11 @@
 
   .team-bio-description h3 {
     margin-block: 1rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .team-bio {
+      width: 100%;
+    }
   }
 </style>

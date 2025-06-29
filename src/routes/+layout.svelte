@@ -94,7 +94,7 @@
     width: 100%;
     padding-top: 1rem;
     isolation: isolate;
-    z-index: 1;
+    z-index: 2;
   }
 
   .footer {
@@ -156,5 +156,23 @@
 
   .w-small {
     width: 150px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .contact-details {
+      flex-direction: column;
+      width: 90%;
+    }
+
+    .contact-info, .contact-map {
+      flex: 1;
+      display: block;
+      align-self: auto;
+    }
+
+    .contact-map {
+      width: 100%;
+      margin-top: 2rem;
+    }
   }
 </style>
